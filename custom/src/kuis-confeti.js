@@ -1,7 +1,4 @@
-import { LitElement } from 'https://cdn.jsdelivr.net/npm/lit@3.1.4/+esm';
-import { HAXCMSLitElementTheme, css, unsafeCSS, html, store, autorun, toJS } from "@haxtheweb/haxcms-elements/lib/core/HAXCMSLitElementTheme.js";
-// import { PolarisFlexTheme } from "@haxtheweb/polaris-theme/lib/polaris-flex-theme.js";
-import "@haxtheweb/haxcms-elements/lib/ui-components/blocks/site-children-block.js";
+import { LitElement, html, css } from 'https://cdn.jsdelivr.net/npm/lit@3.1.4/+esm';
 
 class ConfettiQuiz extends LitElement {
     static properties = {
