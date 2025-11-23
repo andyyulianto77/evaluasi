@@ -6,6 +6,7 @@
   "homepage": "https://github.com/haxtheweb/haxcms",
   "license": "Apache-2.0",
   "repository": "https://github.com/haxtheweb/haxcms",
+  "type": "module",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "start": "yarn run watch",
