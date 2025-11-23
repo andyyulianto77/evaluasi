@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--
+TEMPLATE: Quiz/Form dengan HAXCMS Integration
+Cara pakai:
+1. Ganti [JUDUL_KUIS] dengan judul kuis Anda
+2. Ganti [PERTANYAAN] dengan pertanyaan Anda
+3. Ganti [JAWABAN] dengan jawaban yang benar
+4. Ganti [NAMA_SEKOLAH] dengan nama institusi Anda
+5. Jalankan di browser!
+
+Template by Portal Educativa
+-->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[JUDUL_KUIS] - [NAMA_SEKOLAH]</title>
+    
+    <!-- Import Components -->
+    <script type="module" src="../custom/src/kuis-confeti.js"></script>
+    <script type="module" src="../custom/src/form-connected.js"></script>
+    <script type="module" src="../custom/src/custom-eval2-theme.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            text-align: center;
+            padding: 40px 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .instructions {
+            background: #e8f5e8;
+            border: 1px solid #4CAF50;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .instructions h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        
+        .instructions ul {
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 10px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>[JUDUL_KUIS]</h1>
+            <p>[NAMA_SEKOLAH] - Tahun Ajaran 2024/2025</p>
+        </div>
+        
+        <div class="content">
+            <div class="instructions">
+                <h3>📋 Petunjuk Penggunaan:</h3>
+                <ul>
+                    <li>Isi data diri Anda dengan lengkap</li>
+                    <li>Baca setiap pertanyaan dengan teliti</li>
+                    <li>Ketik jawaban yang tepat di kolom jawaban</li>
+                    <li>Klik "Cek Jawaban" untuk memeriksa jawaban</li>
+                    <li>Lihat confetti jika jawaban Anda benar! 🎉</li>
+                    <li>Lanjutkan sampai selesai semua pertanyaan</li>
+                </ul>
+            </div>
+            
+            <!-- Quiz Component -->
+            <confetti-quiz 
+                web-app-url=""
+                autoload-results="true">
+            </confetti-quiz>
+            
+            <!-- Form Component (Opsional) -->
+            <div style="margin-top: 40px; padding-top: 30px; border-top: 2px solid #eee;">
+                <h3 style="color: #4CAF50; margin-bottom: 20px;">📝 Form Data Diri</h3>
+                <form-connected></form-connected>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Confetti Overlay -->
+    <kuis-confeti id="confetti"></kuis-confeti>
+    
+    <script>
+        // Konfigurasi HAXCMS Store
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('🚀 [JUDUL_KUIS] loaded!');
+            
+            setTimeout(() => {
+                if (window.store) {
+                    console.log('📦 Configuring HAXCMS Store...');
+                    
+                    // Configure Quiz
+                    window.store.quizData = {
+                        title: "[JUDUL_KUIS]",
+                        questions: JSON.stringify([
+                            // GANTI PERTANYAAN DAN JAWABAN DI SINI
+                            {
+                                "question": "[PERTANYAAN_1]",
+                                "answer": "[JAWABAN_1]"
+                            },
+                            {
+                                "question": "[PERTANYAAN_2]", 
+                                "answer": "[JAWABAN_2]"
+                            },
+                            {
+                                "question": "[PERTANYAAN_3]",
+                                "answer": "[JAWABAN_3]"
+                            },
+                            {
+                                "question": "[PERTANYAAN_4]",
+                                "answer": "[JAWABAN_4]"
+                            },
+                            {
+                                "question": "[PERTANYAAN_5]",
+                                "answer": "[JAWABAN_5]"
+                            }
+                            // Tambahkan more questions as needed
+                        ]),
+                        settings: {
+                            autoloadResults: true,
+                            showConfetti: true,
+                            duration: 2000,
+                            particleCount: 200
+                        }
+                    };
+                    
+                    // Configure Site
+                    window.store.manifest = {
+                        title: "[NAMA_SEKOLAH]"
+                    };
+                    
+                    // Initialize User Data
+                    window.store.userData = {
+                        name: "",
+                        email: "",
+                        phone: "",
+                        kelas: "",
+                        absen: "",
+                        address: ""
+                    };
+                    
+                    console.log('✅ Configuration complete!');
+                } else {
+                    console.warn('⚠️ HAXCMS Store not available');
+                }
+            }, 1000);
+        });
+        
+        // Event Handlers
+        document.addEventListener('quiz-finished', function(e) {
+            const result = e.detail.result;
+            console.log('🎉 Quiz finished!', result);
+            
+            // Custom completion handling
+            alert(`🎉 Kuis Selesai!\n\nSkor: ${result.score}/${result.total}\nPersentase: ${result.percentage}%\n\nTerima kasih telah mengikuti kuis!`);
+        });
+        
+        // Debug function
+        window.debugQuiz = function() {
+            console.log('🔍 Debug Info:');
+            console.log('Store:', window.store);
+            console.log('Quiz data:', window.store?.quizData);
+            console.log('User data:', window.store?.userData);
+        };
+    </script>
+</body>
+</html>

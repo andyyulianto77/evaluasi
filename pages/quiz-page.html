@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis Pengetahuan Umum</title>
+  <script type="module" src="/c:/Users/Public/git/andyprodistik/eval2/custom/src/kuis-confeti.js"></script>
+  <script type="module" src="/c:/Users/Public/git/andyprodistik/eval2/custom/src/quiz-sheets-sender.js"></script>
+</head>
+<body>
+  <!-- Komponen untuk mengirim hasil kuis ke Google Sheets -->
+  <quiz-sheets-sender web-app-url="https://script.google.com/macros/s/YOUR_WEB_APP_URL/exec"></quiz-sheets-sender>
+
+  <!-- Komponen kuis -->
+  <confetti-quiz
+    web-app-url="https://script.google.com/macros/s/YOUR_WEB_APP_URL/exec"
+    questions='[
+      {"question": "Siapakah presiden pertama Indonesia?", "answer": "soekarno"},
+      {"question": "Apa ibu kota Jepang?", "answer": "tokyo"},
+      {"question": "Berapa hasil dari 5 + 7?", "answer": "12"}
+    ]'
+  ></confetti-quiz>
+</body>
+</html>

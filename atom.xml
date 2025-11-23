@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Situs Belajar Berpikir Kritis</title>
+  <link href="/atom.xml" rel="self" />
+  <subtitle>Selamat datang di situs belajar berpikir kritis. Situs ini dirancang untuk membantu Anda mengembangkan keterampilan berpikir kritis melalui berbagai materi dan sumber daya interaktif.</subtitle>
+  <updated>1970-01-21T09:58:11.247Z</updated>
+  <author>
+      <name></name>
+  </author>
+  <id>/feed</id>
+  [object Promise]
+</feed>

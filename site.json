@@ -1,0 +1,465 @@
+{
+  "id": "fe9ffe8b-963e-486d-804d-4857fa3cd137",
+  "title": "Situs Belajar Berpikir Kritis",
+  "author": "",
+  "description": "Selamat datang di situs belajar berpikir kritis. Situs ini dirancang untuk membantu Anda mengembangkan keterampilan berpikir kritis melalui berbagai materi dan sumber daya interaktif.",
+  "license": "by-sa",
+  "metadata": {
+    "author": {
+      "image": "",
+      "name": null,
+      "email": null,
+      "socialLink": null
+    },
+    "site": {
+      "name": "eval2",
+      "logo": "assets/banner.jpg",
+      "settings": {
+        "lang": "en-US",
+        "publishPagesOn": true,
+        "canonical": true,
+        "private": false,
+        "pathauto": false,
+        "sw": false,
+        "forceUpgrade": false,
+        "gaID": null
+      },
+      "created": 1763159289,
+      "updated": 1763891247,
+      "git": {
+        "vendor": "github",
+        "branch": "gh-pages"
+      },
+      "version": "11.0.5",
+      "domain": null,
+      "tags": null,
+      "static": {}
+    },
+    "theme": {
+      "element": "custom-eval2-theme",
+      "path": "custom/build/custom.es6.js",
+      "name": "Custom Eval2 Theme",
+      "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
+      "variables": {
+        "image": "",
+        "imageAlt": null,
+        "imageLink": null,
+        "hexCode": null,
+        "cssVariable": "--simple-colors-default-theme-null-7",
+        "icon": null
+      },
+      "regions": {}
+    },
+    "node": {
+      "fields": {}
+    },
+    "build": {
+      "version": "11.0.5",
+      "structure": "course",
+      "type": "own"
+    }
+  },
+  "items": [
+    {
+      "id": "item-5abc13fb-cc8f-4c3f-ac33-e0d80c96c71e",
+      "indent": 1,
+      "location": "pages/item-5abc13fb-cc8f-4c3f-ac33-e0d80c96c71e/index.html",
+      "slug": "kritis",
+      "order": 0,
+      "parent": "item-45efd8c7-dfb3-4367-a95e-540092fe9d35",
+      "title": "Berpikir Kritis dan Pengambilan Keputusan",
+      "description": " ",
+      "metadata": {
+        "created": 1763695481,
+        "updated": 1763874795,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "pageType": "lesson",
+        "hideInMenu": true,
+        "tags": "kritis",
+        "locked": false,
+        "readtime": 7,
+        "icon": "hax:lesson",
+        "theme": {
+          "element": "polaris-flex-theme",
+          "path": "@haxtheweb/polaris-theme/lib/polaris-flex-theme.js",
+          "name": "Polaris - Flex",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
+          "key": "polaris-flex-theme"
+        },
+        "status": "",
+        "accentColor": "pink",
+        "files": [
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\thinking.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/thinking.jpg",
+            "url": "files/thinking.jpg",
+            "type": "image/jpeg",
+            "name": "thinking.jpg",
+            "size": 48295
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\libur-selamanya.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/libur-selamanya.jpg",
+            "url": "files/libur-selamanya.jpg",
+            "type": "image/jpeg",
+            "name": "libur-selamanya.jpg",
+            "size": 16272
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\kriteria.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/kriteria.jpg",
+            "url": "files/kriteria.jpg",
+            "type": "image/jpeg",
+            "name": "kriteria.jpg",
+            "size": 15567
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\viral.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/viral.jpg",
+            "url": "files/viral.jpg",
+            "type": "image/jpeg",
+            "name": "viral.jpg",
+            "size": 15690
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\alternatif.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/alternatif.jpg",
+            "url": "files/alternatif.jpg",
+            "type": "image/jpeg",
+            "name": "alternatif.jpg",
+            "size": 29418
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\evaluasi.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/evaluasi.jpg",
+            "url": "files/evaluasi.jpg",
+            "type": "image/jpeg",
+            "name": "evaluasi.jpg",
+            "size": 32593
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\terbaik.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/terbaik.jpg",
+            "url": "files/terbaik.jpg",
+            "type": "image/jpeg",
+            "name": "terbaik.jpg",
+            "size": 26097
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\keputusan.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/keputusan.jpg",
+            "url": "files/keputusan.jpg",
+            "type": "image/jpeg",
+            "name": "keputusan.jpg",
+            "size": 23150
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\evaluasi-keputusan.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/evaluasi-keputusan.jpg",
+            "url": "files/evaluasi-keputusan.jpg",
+            "type": "image/jpeg",
+            "name": "evaluasi-keputusan.jpg",
+            "size": 25811
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\pengambilan-keputusan.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/pengambilan-keputusan.jpg",
+            "url": "files/pengambilan-keputusan.jpg",
+            "type": "image/jpeg",
+            "name": "pengambilan-keputusan.jpg",
+            "size": 31171
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\sekolah-pandemi.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/sekolah-pandemi.jpg",
+            "url": "files/sekolah-pandemi.jpg",
+            "type": "image/jpeg",
+            "name": "sekolah-pandemi.jpg",
+            "size": 96005
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\keputusan-digital2.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/keputusan-digital2.jpg",
+            "url": "files/keputusan-digital2.jpg",
+            "type": "image/jpeg",
+            "name": "keputusan-digital2.jpg",
+            "size": 26942
+          }
+        ],
+        "image": "files/sekolah-pandemi.jpg"
+      }
+    },
+    {
+      "id": "item-9fa7ba2b-bfe6-4cff-a20c-5027fa06b287",
+      "indent": 1,
+      "location": "pages/item-9fa7ba2b-bfe6-4cff-a20c-5027fa06b287/index.html",
+      "slug": "welcome/penerapan",
+      "order": 1,
+      "parent": "item-45efd8c7-dfb3-4367-a95e-540092fe9d35",
+      "title": "Kajian Kritis Penerapan Informatika dalam Bidang Pertanian",
+      "description": "Kajian Kritis Penerapan Informatika dalam Bidang Pertanian\nIndonesia adalah negara agraris. Menurut data Badan Pusat Statistik (BPS) tahun 2020, dari 128,45 juta orang yang bekerja di Indonesia, mayo",
+      "metadata": {
+        "created": 1763159343,
+        "updated": 1763874795,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "locked": false,
+        "status": "",
+        "pageType": "content",
+        "hideInMenu": true,
+        "readtime": 2,
+        "icon": "lrn:page",
+        "tags": "kritis",
+        "files": [
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\tani.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/tani.jpg",
+            "url": "files/tani.jpg",
+            "type": "image/jpeg",
+            "name": "tani.jpg",
+            "size": 146355
+          }
+        ],
+        "theme": {
+          "element": "polaris-flex-theme",
+          "path": "@haxtheweb/polaris-theme/lib/polaris-flex-theme.js",
+          "name": "Polaris - Flex",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
+          "key": "polaris-flex-theme"
+        },
+        "image": "files/tani.jpg"
+      }
+    },
+    {
+      "id": "item-9df2478a-800b-44fd-94b2-ca8018ecc084",
+      "indent": 0,
+      "location": "pages/item-9df2478a-800b-44fd-94b2-ca8018ecc084/index.html",
+      "slug": "home",
+      "order": 6,
+      "parent": null,
+      "title": "Selamat Datang di Media Belajar Berpikir",
+      "description": "tes kosong\n\n",
+      "metadata": {
+        "created": 1763418769,
+        "updated": 1763874796,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "hideInMenu": true,
+        "locked": false,
+        "readtime": 1,
+        "theme": {
+          "element": "haxcms-blank-theme",
+          "path": "@haxtheweb/haxcms-elements/lib/core/themes/haxcms-blank-theme.js",
+          "name": "Blank theme",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/GreyStyle.svg",
+          "key": "haxcms-blank-theme"
+        },
+        "accentColor": "pink",
+        "files": [
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\syahrul-alamsyah-wahid-2SLWp7PdsX8-unsplash.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/syahrul-alamsyah-wahid-2SLWp7PdsX8-unsplash.jpg",
+            "url": "files/syahrul-alamsyah-wahid-2SLWp7PdsX8-unsplash.jpg",
+            "type": "image/jpeg",
+            "name": "syahrul-alamsyah-wahid-2SLWp7PdsX8-unsplash.jpg",
+            "size": 1896691
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\syahrul-alamsyah-wahid-Z1NnYaPD6Vk-unsplash.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/syahrul-alamsyah-wahid-Z1NnYaPD6Vk-unsplash.jpg",
+            "url": "files/syahrul-alamsyah-wahid-Z1NnYaPD6Vk-unsplash.jpg",
+            "type": "image/jpeg",
+            "name": "syahrul-alamsyah-wahid-Z1NnYaPD6Vk-unsplash.jpg",
+            "size": 1781365
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\bantalmp4.mp4",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/bantalmp4.mp4",
+            "url": "files/bantalmp4.mp4",
+            "type": "video/mp4",
+            "name": "bantalmp4.mp4",
+            "size": 1627736
+          }
+        ],
+        "status": ""
+      }
+    },
+    {
+      "id": "item-16c4b08b-6f6f-4be0-8a26-144cb340df98",
+      "indent": 0,
+      "location": "pages/item-16c4b08b-6f6f-4be0-8a26-144cb340df98/index.html",
+      "slug": "portfolio",
+      "order": 7,
+      "parent": null,
+      "title": "Welcome Copy",
+      "description": "\n   Sharp looking section\n\n  \n  Kelihatan mudah dengan belajar bersama.\n  \n    \n  \n\n\n\n\n\n\n   Accent Card\n\n   A card with optional accent stylings.\n\n  \n    This card is highly customizable to contain a",
+      "metadata": {
+        "created": 1763588174,
+        "updated": 1763874796,
+        "images": {},
+        "videos": {},
+        "theme": {
+          "element": "haxcms-blank-theme",
+          "path": "@haxtheweb/haxcms-elements/lib/core/themes/haxcms-blank-theme.js",
+          "name": "Blank theme",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/GreyStyle.svg",
+          "key": "haxcms-blank-theme"
+        },
+        "published": true,
+        "hideInMenu": true,
+        "locked": false,
+        "readtime": 2,
+        "files": [
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\coding.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/coding.jpg",
+            "url": "files/coding.jpg",
+            "type": "image/jpeg",
+            "name": "coding.jpg",
+            "size": 3448244
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\belajar.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/belajar.jpg",
+            "url": "files/belajar.jpg",
+            "type": "image/jpeg",
+            "name": "belajar.jpg",
+            "size": 1187785
+          },
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\halo-dunia.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/halo-dunia.jpg",
+            "url": "files/halo-dunia.jpg",
+            "type": "image/jpeg",
+            "name": "halo-dunia.jpg",
+            "size": 4199499
+          }
+        ],
+        "status": ""
+      }
+    },
+    {
+      "id": "item-45efd8c7-dfb3-4367-a95e-540092fe9d35",
+      "indent": 0,
+      "location": "pages/item-45efd8c7-dfb3-4367-a95e-540092fe9d35/index.html",
+      "slug": "bab3",
+      "order": 4,
+      "parent": null,
+      "title": "Bab Berpikir Kritis dan Dampak Sosial Informatika",
+      "description": "Revolusi industri 4.0 menyentuh hampir semua aspek dalam kehidupan sehari-hari. Dengan pemanfaatan Internet of things (IoT), automasi, teknologi cerdas di berbagai bidang, termasuk dalam bidang ",
+      "metadata": {
+        "locked": false,
+        "created": 1763716114,
+        "images": {},
+        "videos": {},
+        "updated": 1763874795,
+        "published": true,
+        "pageType": "content",
+        "hideInMenu": true,
+        "readtime": 1,
+        "status": "",
+        "icon": "lrn:page",
+        "files": [
+          {
+            "path": "C:\\Users\\Public\\git\\andyprodistik\\eval2\\files\\brain.jpg",
+            "fullUrl": "/C:\\Users\\Public\\git\\andyprodistik\\eval2/files/brain.jpg",
+            "url": "files/brain.jpg",
+            "type": "image/jpeg",
+            "name": "brain.jpg",
+            "size": 26946
+          }
+        ],
+        "theme": {
+          "element": "polaris-flex-sidebar",
+          "path": "@haxtheweb/polaris-theme/lib/polaris-flex-sidebar.js",
+          "name": "Polaris - Flex Sidebar",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/PartyStyle.svg",
+          "key": "polaris-flex-sidebar"
+        },
+        "image": "files/brain.jpg",
+        "tags": "materi",
+        "accentColor": "pink"
+      }
+    },
+    {
+      "id": "item-a8118712-0876-4311-9451-b3d0a5b7525c",
+      "indent": 0,
+      "location": "pages/item-a8118712-0876-4311-9451-b3d0a5b7525c/index.html",
+      "slug": "page-1",
+      "order": 0,
+      "parent": null,
+      "title": "Page",
+      "description": "tes kuis\n",
+      "metadata": {
+        "created": 1763717438,
+        "updated": 1763874794,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "locked": false,
+        "status": "",
+        "hideInMenu": false,
+        "readtime": 1
+      }
+    },
+    {
+      "id": "item-180dedc9-60ec-4db6-8fe8-0b5f8add8481",
+      "indent": 0,
+      "location": "pages/item-180dedc9-60ec-4db6-8fe8-0b5f8add8481/index.html",
+      "slug": "page-copy",
+      "order": 2,
+      "parent": null,
+      "title": "Page Copy",
+      "description": "",
+      "metadata": {
+        "created": 1763869760,
+        "updated": 1763874794,
+        "images": [],
+        "videos": [],
+        "published": true,
+        "locked": false,
+        "status": ""
+      }
+    },
+    {
+      "id": "item-40642fd4-0026-4337-b60d-18e8ddd5f9da",
+      "indent": 0,
+      "location": "pages/item-40642fd4-0026-4337-b60d-18e8ddd5f9da/index.html",
+      "slug": "page-2",
+      "order": 1,
+      "parent": null,
+      "title": "Page",
+      "description": "tes\n\n\n\ntes\n\n\ntes\n\n",
+      "metadata": {
+        "created": 1763891227,
+        "updated": 1763891247,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
+      }
+    },
+    {
+      "id": "item-22a7e6bb-d600-425f-a9e9-7469c80deeb1",
+      "indent": 0,
+      "location": "pages/item-22a7e6bb-d600-425f-a9e9-7469c80deeb1/index.html",
+      "slug": "page-copy-1",
+      "order": 1,
+      "parent": null,
+      "title": "Page Copy",
+      "description": "",
+      "metadata": {
+        "created": 1763900983,
+        "updated": 1763900983,
+        "images": [],
+        "videos": []
+      }
+    }
+  ]
+}
